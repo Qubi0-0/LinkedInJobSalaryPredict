@@ -29,5 +29,5 @@ def plot_remote_jobs_by_state(jobs_df, treshold=None):
     plt.ylabel('Number of Jobs')
     plt.title('Number of Remote and Non-Remote Jobs by State')
 
-    plt.legend(loc='upper right')
+    plt.legend(['Non-Remote', 'Remote'], loc='upper right')
     plt.show()
