@@ -10,7 +10,8 @@ def convert_to_yearly(sal, pay_period):
         return sal * 52
     else:
         return sal
-    
+
+# Plots the distribution of salaries by state with a treshold (optional)
 def plot_remote_jobs_by_state(jobs_df, treshold=None):
     counts = jobs_df.groupby(['st_code', 'is_remote']).size().unstack()
     counts['total'] = counts.sum(axis=1)
