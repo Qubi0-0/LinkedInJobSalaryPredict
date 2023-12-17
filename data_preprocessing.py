@@ -1,7 +1,3 @@
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import MinMaxScaler
-
 # Converts hourly, monthly, and weekly salaries to yearly salaries
 def convert_to_yearly(sal, pay_period):
     if pay_period == 'HOURLY':
