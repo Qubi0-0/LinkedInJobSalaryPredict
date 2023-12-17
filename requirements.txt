@@ -1,2 +1,6 @@
 pandas
 ipykernel
+spacy
+gensim
+pyLDAvis
+tqdm
