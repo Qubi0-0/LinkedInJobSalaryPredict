@@ -1,9 +1,12 @@
 pandas
 ipykernel
+spacy
+gensim
+pyLDAvis
+tqdm
 jupyter
 matplotlib
 sklearn
 os
 numpy
 seaborn
-```
